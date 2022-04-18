@@ -1,0 +1,64 @@
+  @font-face {
+    font-family: mpbl; /* Гарнитура шрифта */
+    src: url(fonts/MyriadPro-Bold.otf); /* Путь к файлу со шрифтом */
+   }
+   @font-face {
+    font-family:'mpr';
+    src:url(fonts/MyriadPro-Regular.otf) ;
+  }
+    @font-face {
+    font-family:'mps';
+    src:url(fonts/MyriadPro-Semibold.otf) ;
+}
+    @font-face {
+    font-family:'rr';
+    src:url(fonts/Roboto-Regular.ttf) ;
+}
+    @font-face {
+    font-family:'mpl';
+    src:url(fonts/Myriad-Pro-Light-SemiExtended.ttf) ;
+}
+  @font-face {
+    font-family: mpb; /* Гарнитура шрифта */
+    src: url(fonts/Myriad-Pro-Black.ttf); /* Путь к файлу со шрифтом */
+   }
+/* цвета */
+.t1,.t2,.t3,.t4,.t5,.t8,.t9,.t10,.t15,.t16,.t17,.t20,.t21,.t22,.t27{color:white;}
+.t6{color:rgba(0,0,0,0.4);}
+.t12{color:#777777;}
+.t25{color:#0842bc;}
+.t29{color:#255794;}
+/* размеры */
+.t9,.t22,.t31{font-size:16px;}
+.t1,.t2,.t4,.t5,.t10,.t12,.t17,.t23,.t25,.t29{	font-size:18px;	}
+.t14,.t15,.t24{font-size:20px;}
+.t21{font-size:22px;}
+.t8,.t27{font-size:24px;}
+.t28{font-size:28px;}
+.t11,.t30{font-size:30px;}
+.t7,.t13,.t16,.t20{font-size:36px;}
+.t18{font-size:38px;}
+.t3{font-size:40px;}
+.t6{font-size:106px;}
+/* шрифты */
+.t1,.t2,.t4,.t9,.t12,.t14,.t15,.t23,.t24,.t31{	font-family:mpr;}
+.t3,.t6,.t8,.t13,.t16,.t18,.t20,.t7,.t27,.t30{	font-family:mpb;}
+.t5,.t10,.t11,.t17,.t21,.t22,.t25,.t28,.t29{	font-family:mps;}
+/*.t7{	font-family:calibri;}*/
+/* выравнивание */
+.t3,.t4,.t5,.t6,.t7,.t15,.t16,.t17,.t24,.t25,.t27,.t28{	text-align: center}
+/* position */
+.t6,.im,.im2,.bl15{position:relative;}
+.t7,.tx,.tx2,.bl16,.t27{position:absolute;z-index:1;}
+/* flex*/
+.t5,.t10,.t17{  display:inline-block;	}
+.bl1,.bl2,.bl6,.bl7,.bl8,.bl10,.bl13,.bl19,.bl20,.bl21,.bl23{	display: flex;}
+.bl2,.bl6,.bl7,.bl8,.bl13,.bl19,.bl20,.bl21,.bl23{ justify-content:space-between;}
+.bl10{	justify-content:flex-start;}
+.t6{width:100%;}
+.t13,.t18,.t6,.t7,.t20,.t27{text-transform: uppercase}
+.t27{width:1100px}
+.t29,.t30,.t31{
+	width:430px;
+	text-align:center;
+}
